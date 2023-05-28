@@ -30,6 +30,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
 ```
 cd /root/
 wget https://raw.githubusercontent.com/dogwalkerg/x-ui/main/x-ui-linux-amd64.tar.gz   #老版本包
+bash <(curl -Ls https://raw.githubusercontent.com/dogwalkerg/x-ui/main/x-ui-old.sh)   #老版本一键安装
 rm x-ui/ /usr/local/x-ui/ /usr/bin/x-ui -rf
 tar zxvf x-ui-linux-amd64.tar.gz
 chmod +x x-ui/x-ui x-ui/bin/xray-linux-* x-ui/x-ui.sh
